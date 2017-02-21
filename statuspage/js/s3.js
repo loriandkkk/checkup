@@ -72,7 +72,7 @@ checkup.storage = (function() {
 				for (var i = 0; i < list.length; i++) {
 					var url;
 					if (region && region !== "" && region !== "us-east-1") {
-						url = "https://s3-"+region+".amazonaws.com/"+bucketName+"/"+list[i];
+						url = "https://region+bucketName+"/"+list[i];
 					} else {
 						url = "https://s3.amazonaws.com/"+bucketName+"/"+list[i];
 					}
